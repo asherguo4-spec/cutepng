@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selindell Showcase</title>
+    <style>
+        /* 全屏深色背景，符合 Selindell 的科技感审美 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        img {
+            /* 核心适配：无论手机还是电脑，图片都按原比例最大化居中 */
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            display: block;
+            /* 增加一点呼吸感，不让图片死贴边缘 */
+            box-sizing: border-box;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img src="cute.png" alt="Designed by Selindell">
+</body>
+</html>
